@@ -1,0 +1,38 @@
+.bg-item {
+    padding:1rem;
+    border:2px solid black;
+    border-radius:4px;
+}
+
+.bg-item + .bg-item {
+    margin-top:20px;
+}
+.grid-content {
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+}
+
+.bg-item-similar {
+    padding:1rem;
+    border:2px solid black;
+    border-radius:4px;
+
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.bg-item-similar + .bg-item-similar {
+    margin-top:20px;
+}
+
+.grid-content-similar {
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+    width:100%;
+
+}
