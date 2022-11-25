@@ -144,7 +144,7 @@ function BackgroundSimilar({ colors, title }: BackgroundProps) {
       style={{
         backgroundColor: colors,
         border: '1px solid',
-        padding: '.2rem',
+        padding: '.8rem',
         borderRadius: '2px',
       }}
     >

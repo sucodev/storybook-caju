@@ -17,7 +17,7 @@ export function TokensGrid({
         <tr>
           <th>Name</th>
           <th>Value</th>
-          {hasRemValue && <th>Pixels</th>}
+          {hasRemValue && <th>Rem</th>}
           {showMetric && <th></th>}
         </tr>
       </thead>
@@ -29,8 +29,8 @@ export function TokensGrid({
               <td>{value}</td>
               {hasRemValue && (
                 <td>
-                  {+value.replace('rem', '') * 16}
-                  px
+                  {+value.replace('px', '') / 16}
+                  rem
                 </td>
               )}
               {showMetric && (

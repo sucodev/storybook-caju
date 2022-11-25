@@ -9,7 +9,7 @@ const OpenSans = () => {
         className="content"
         style={{
           backgroundColor: colors.mirtilo900,
-          color: colors.acucar,
+          color: colors.acucar500,
           borderRadius: radii.md,
         }}
       >
@@ -139,7 +139,7 @@ const Oswald = () => {
         className="content"
         style={{
           backgroundColor: colors.mirtilo900,
-          color: colors.acucar,
+          color: colors.acucar500,
           borderRadius: radii.md,
         }}
       >
@@ -221,7 +221,7 @@ const Bellfort = () => {
         className="content"
         style={{
           backgroundColor: colors.mirtilo900,
-          color: colors.acucar,
+          color: colors.acucar500,
           borderRadius: radii.md,
         }}
       >
