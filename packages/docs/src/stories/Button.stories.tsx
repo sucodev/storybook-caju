@@ -1,5 +1,3 @@
-// eslint-disable-line no-console, max-len
-
 // import type { StoryObj } from '@storybook/react'
 import type { ComponentStory, Meta } from '@storybook/react'
 import { Button, ButtonProps } from '@caju-ds/react'
