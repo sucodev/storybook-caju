@@ -3,7 +3,7 @@ name: Deploy docs
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-deploy:
@@ -19,7 +19,7 @@ jobs:
 
       - run: npm ci --legacy-peer-deps
 
-      - run: npm run build-storybook
+      - run: npm run deploy-storybook
 
       - name: Deploy storybook
         working-directory: ./packages/docs
